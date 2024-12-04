@@ -1,67 +1,64 @@
-RBAC UI
-Overview
-This project implements Role-Based Access Control (RBAC) for managing users and their roles in a web application. It allows the system administrator to control which users have access to specific resources, ensuring security and scalability.
+# RBAC UI - Role-Based Access Control
 
-Features
-Role management: Create, update, and delete roles.
-User management: Add, update, and delete users.
-RBAC functionality: Admin users can assign roles to other users.
-Login functionality: Secure authentication and access management.
-UI Components: A clean and responsive interface built with React.
-Getting Started
-Prerequisites
-Node.js: You must have Node.js and npm (Node Package Manager) installed on your machine.
-Git: Ensure that Git is installed on your local system to clone the repository.
-Installation
-Clone the repository:
+## Project Overview
 
-bash
-Copy code
-git clone https://github.com/MrPOLA/RBAC-UI.git
-Navigate into the project directory:
+RBAC UI is a web application that implements **Role-Based Access Control (RBAC)**, allowing **administrators** to manage user access to various parts of the application. With this system, roles can be assigned to users, ensuring secure and controlled access to resources.
 
-bash
-Copy code
-cd RBAC-UI
-Install dependencies:
+### Key Features:
+- **🔐 Role Management**: Admins can create, update, and delete roles, managing access rights efficiently.
+- **👥 User Management**: Admin users can add, update, or delete users and assign them specific roles.
+- **🛡️ Access Control**: Control which parts of the application users can view or modify based on their roles.
+- **🔑 Authentication**: Secure login ensures that only authorized users have access to the app.
+- **📱 Responsive UI**: Built with **React.js**, offering a modern, user-friendly, and responsive interface across devices.
 
-bash
-Copy code
-npm install
-Running the Project Locally
-To start the development server, use the following command:
+This RBAC system ensures **scalability**, **security**, and **easy management** of users and roles, making it ideal for applications of all sizes.
 
-bash
-Copy code
-npm start
-This will start the app at http://localhost:3000.
+---
 
-Build for Production
-To create a production build, use:
+## Table of Contents
 
-bash
-Copy code
-npm run build
-The output will be in the build folder, and you can deploy it on your preferred server.
+1. [Installation](#installation)
+2. [Running the Project](#running-the-project)
+3. [Project Structure](#project-structure)
+4. [Contributing](#contributing)
+5. [License](#license)
+6. [Acknowledgments](#acknowledgments)
 
-Project Structure
-src/: Contains all the source code of the application.
-components/: UI components for the application.
-hooks/: Custom React hooks.
-services/: APIs and services for handling requests.
-types/: TypeScript types and interfaces.
-public/: Static assets like images, icons, etc.
-package.json: Contains dependencies and scripts.
-tsconfig.json: TypeScript configuration file.
-Contributing
-Fork this repository.
-Create a new branch (git checkout -b feature/your-feature-name).
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature/your-feature-name).
-Create a new Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
 
-Acknowledgments
-This project was inspired by the need for role-based access control in web applications.
-Thanks to the open-source community for providing resources and frameworks that made this project possible.
+## Installation
+
+To get started with this project, clone the repository and install the dependencies:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MrPOLA/RBAC-UI.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd RBAC-UI
+   ```
+3. Install the dependencies using npm:
+   ```bash
+   npm install
+   ```
+
+## Running the Project
+
+To run the project locally, follow these steps:
+1. Make sure you have Node.js installed. If not, download and install Node.js.
+2. Install the required dependencies:
+    ```bash
+    npm install
+    ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and visit http://localhost:5173/ to view the application.
+
+## Acknowledgments
+React.js - JavaScript library for building user interfaces.
+TypeScript - A superset of JavaScript that provides static typing.
+Node.js - JavaScript runtime for the server-side.
+npm - Package manager for JavaScript.

@@ -58,7 +58,7 @@ To run the project locally, follow these steps:
 4. Open your browser and visit http://localhost:5173/ to view the application.
 
 ## Acknowledgments
-React.js - JavaScript library for building user interfaces.
-TypeScript - A superset of JavaScript that provides static typing.
-Node.js - JavaScript runtime for the server-side.
-npm - Package manager for JavaScript.
+- React.js - JavaScript library for building user interfaces.
+- TypeScript - A superset of JavaScript that provides static typing.
+- Node.js - JavaScript runtime for the server-side.
+- npm - Package manager for JavaScript.
